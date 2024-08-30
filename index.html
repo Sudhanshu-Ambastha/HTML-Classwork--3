@@ -12,14 +12,15 @@
             <label for="firstname">Firstname</label>
             <input type="text" id="firstname" name="firstname">
             <br>
+            <br>
             <label for="middlename">Middlename:</label>
             <input type="text" id="middlename" name="middlename">
             <br>
-            
+            <br>
             <label for="lastname">Lastname:</label>
             <input type="text" id="lastname" name="lastname">
             <br>
-            
+            <br>
             <label for="course">Course :</label>
             <select id="course" name="course">
                 <option value="" disabled selected>Course</option>
@@ -28,13 +29,13 @@
                 <option value="course3">Course 3</option>
             </select>
             <br>
-            
+            <br>
             <label>Gender :</label>
             <div class="radio-group">
                 <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label>
+                <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label>
+                <label for="female">Female</label><br>
                 <input type="radio" id="other" name="gender" value="other">
                 <label for="other">Other</label>
             </div>
@@ -43,27 +44,28 @@
             <label for="dob">DOB</label>
             <input type="text" id="dob" name="dob" placeholder="dd - mm - yyyy">
             <br>
-            
             <label for="phone">Phone :</label>
-            <input type="text" id="phone" name="phone" placeholder="+91">
+            <input type="text" id="phone" name="phone" placeholder="+91" size="2" disabled>
+            <input type="text" id="phone" name="phone">
             <br>
-            
+            <br>
             <label for="address">Address:</label>
-            <textarea id="address" name="address" rows="4"></textarea>
             <br>
-            
+            <textarea id="address" name="address" cols="80" rows="5"></textarea>
+            <br>
+            <br>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email">
             <br>
-            
+            <br>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password">
             <br>
-            
+            <br>
             <label for="retype-password">Re-type password:</label>
             <input type="password" id="retype-password" name="retype-password">
             <br>
-            
+            <br>
             <div>
                 <input type="checkbox" id="terms" name="terms">
                 <label for="terms">Agree to terms and conditions</label>
@@ -72,7 +74,13 @@
             <label for="file-upload">Choose File</label>
             <input type="file" id="file-upload" name="file-upload">
             <br>
-
+            <br>
+            
+            <label for="choose-color">Choose Color</label>
+            <input type="color" id="choose-color" name="choose-color">
+            <br>
+            <br>
+            <button type="reset" class="reset-btn">Reset</button>
             <button type="submit" class="submit-btn">Submit</button>
         </form>
     </div>
